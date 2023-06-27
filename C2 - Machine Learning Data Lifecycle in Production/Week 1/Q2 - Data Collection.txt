@@ -118,7 +118,7 @@ Good call! This is a prototypical way an ML system may fail the users it serves.
 Question 7
 Accurate labels are necessary to properly train supervised models. Many times, human subjects known as raters perform this labeling effort. What are the main categories of human raters? (check all that apply). 
 
-0 / 1 point
+1 / 1 point
 
 > Generalists
 
@@ -130,3 +130,8 @@ Good choice! Generalists usually come from crowdsourcing sites.
 
 Correct
 Nice going!. A classical example is radiologists labeling medical images for automated diagnosis tools.
+
+> Your users
+
+Correct
+Right choice! Users can provide labels within your application. A classical example is photo tagging.
