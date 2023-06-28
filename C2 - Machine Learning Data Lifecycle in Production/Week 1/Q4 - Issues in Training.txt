@@ -38,7 +38,7 @@ That’s it! Chebyshev distance is defined as maxi(|xi−yi|)
 Question 3
 Distribution skew occurs when the distribution of the training dataset is significantly different from the distribution of the serving dataset, and is typically caused by: (check all that apply). 
 
-0.6666666666666666 / 1 point
+0.8333333333 / 1 point
 
 Occurs when serving and training data don’t conform to the same schema. For example, int32 != float.
 
@@ -46,8 +46,10 @@ Occurs when serving and training data don’t conform to the same schema. For ex
 There is different logic for generating features between training and serving. For example, if you apply some transformation only in one of the two code paths.
 
 
- Trend, seasonality, changes in data over time.
+> Trend, seasonality, changes in data over time.
 
+Correct
+Keep it up! Data distributions between training and serving often change and so this is another case of distribution skew.
 
 Faulty sampling method that selects a sample for training which is not representative of serving data distribution.
 
