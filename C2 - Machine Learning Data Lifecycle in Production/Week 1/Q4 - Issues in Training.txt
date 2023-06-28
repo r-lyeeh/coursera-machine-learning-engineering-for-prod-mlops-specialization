@@ -51,8 +51,10 @@ There is different logic for generating features between training and serving. F
 Correct
 Keep it up! Data distributions between training and serving often change and so this is another case of distribution skew.
 
-Faulty sampling method that selects a sample for training which is not representative of serving data distribution.
+> Faulty sampling method that selects a sample for training which is not representative of serving data distribution.
 
+Correct
+Spot on! A faulty sampling mechanism that chooses a non-representative subsample is an example of distribution skew.
 
 > Different data sources for training and serving data.
 
