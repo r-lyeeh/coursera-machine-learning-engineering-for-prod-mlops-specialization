@@ -18,7 +18,7 @@ Spot on! In fact, NAS can design a novel network architecture that rivals the be
 Question 2
 Which of the following characteristics best describe hyperparameters? (Select all that apply)
 
-0.5 / 1 point
+1 / 1 point
 
 > Hyperparameters can be quite numerous even in small models.
 
@@ -26,11 +26,15 @@ Correct
 Great job! Hyperparameters can be numerous, so, performing manual hyperparameter tuning can be a real brain teaser.
 
 
-Hyperparameters are set before launching the learning process.
+> Hyperparameters are set before launching the learning process.
 
+Correct
+Excellent! They need to be set before model training begins.
 
-Hyperparameters are not optimized in each training step.
+> Hyperparameters are not optimized in each training step.
 
+Correct
+You’re right on track! Hyperparameters are not automatically optimized during the training process.
 
 Hyperparameters are derived via training.
 
